@@ -32,7 +32,7 @@ _(Coming soon)_
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint, and test your code using [mocha](http://visionmedia.github.com/mocha/).
 
 ## Release History
-* 2013/01/?: version 0.1.0
+* 2013/01/19: version 0.1.0
 
 ## License
 Copyright (c) 2013 François Parmentier
