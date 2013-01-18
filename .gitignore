@@ -1,2 +1,3 @@
 *.sublime-*
 node_modules
+test/cn1.json
