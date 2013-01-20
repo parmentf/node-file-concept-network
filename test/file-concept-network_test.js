@@ -41,20 +41,18 @@ describe('Save', function () {
   var fcn;
 
   before(function (done) {
+    fs.exists('test/cn1.json', function (exists) {
+      if (exists) {
+        fs.unlink('test/cn1.json', function (err) {
+          assert(!err);
+        });
+      }
+    });
     fcn = new FileConceptNetwork();
     fcn.load('test/cn.json', function (err) {
       assert(!err);
       assert(fcn.nodeLastId === 2);
-    });
-    fs.exists('test/cn1.json', function (exists) {
-      if (exists) {
-        fs.unlink('test/cn1.json', function (err) {
-          done(err);
-        });
-      }
-      else {
-        done();
-      }
+      done();
     });
   });
 
