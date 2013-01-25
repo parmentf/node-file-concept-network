@@ -1,7 +1,7 @@
 {
   "name": "file-concept-network",
   "description": "ConceptNetwork with file persistance.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/parmentf/node-file-concept-network",
   "author": {
     "name": "François Parmentier",
