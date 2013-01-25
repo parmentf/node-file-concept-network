@@ -8,7 +8,7 @@ File Concept Network is the version with file system persistence.
 Install the module with: `npm install file-concept-network`
 
 ```javascript
-var FileConceptNetwork = require('file-concept-network');
+var FileConceptNetwork = require('file-concept-network').FileConceptNetwork;
 var fcn = new FileConceptNetwork();
 var node1 = fcn.addNode("ECTOR");
 var node2 = fcn.addNode("knows");
