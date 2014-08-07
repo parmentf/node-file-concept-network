@@ -32,6 +32,7 @@ _(Coming soon)_
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint, and test your code using [mocha](http://visionmedia.github.com/mocha/).
 
 ## Release History
+* 2014/08/07: version 0.1.2: treat error cases
 * 2013/01/25: version 0.1.1: fix npm module
 * 2013/01/19: version 0.1.0
 
